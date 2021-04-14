@@ -1185,7 +1185,8 @@ input[type="radio"] + label:before {
     border-radius: 0;
     padding: 0; }
 
-/* Icon */
+/* 
+ */
 .icon {
   text-decoration: none;
   border-bottom: none;
@@ -1376,7 +1377,7 @@ ul.contact {
       font-family: 'Font Awesome 5 Free';
       font-weight: 400; }
     ul.contact li:before {
-      color: #f56a6a;
+      color: green;
       display: inline-block;
       font-size: 1.5em;
       height: 1.125em;
@@ -1421,12 +1422,12 @@ ul.pagination {
       padding: 0 0.5em;
       text-align: center; }
       ul.pagination li > .page.active {
-        background-color: #f56a6a;
+        background-color: green;
         color: #ffffff !important; }
         ul.pagination li > .page.active:hover {
-          background-color: #f67878; }
+          background-color: red; }
         ul.pagination li > .page.active:active {
-          background-color: #f45c5c; }
+          background-color: blue; }
     ul.pagination li:first-child {
       padding-right: 0.75em; }
     ul.pagination li:last-child {
@@ -1553,7 +1554,7 @@ button,
   input[type="button"].primary,
   button.primary,
   .button.primary {
-    background-color: #f56a6a;
+    background-color: #df2b2b;
     box-shadow: none;
     color: #ffffff !important; }
     input[type="submit"].primary:hover,
@@ -1561,13 +1562,14 @@ button,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #f67878; }
+      background-color: blue; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
     button.primary:active,
     .button.primary:active {
-      background-color: #f45c5c; }
+      background-color: green
+      ; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -1642,7 +1644,7 @@ button,
       text-align: center;
       width: 10em; }
       .features article .icon:before {
-        color: #f56a6a;
+        color: yellow;
         font-size: 2.75rem;
         position: relative;
         top: 0.05em; }
@@ -2187,7 +2189,7 @@ button,
 
 /* Footer */
 #footer .copyright {
-  color: #9fa3a6;
+  color: blue;
   font-size: 0.9em; }
   #footer .copyright a {
     color: inherit; }
